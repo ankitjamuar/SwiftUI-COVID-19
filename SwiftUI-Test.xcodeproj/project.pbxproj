@@ -13,6 +13,12 @@
 		F51D937A24439660009DEA18 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F51D937924439660009DEA18 /* Assets.xcassets */; };
 		F51D937D24439660009DEA18 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F51D937C24439660009DEA18 /* Preview Assets.xcassets */; };
 		F51D938024439660009DEA18 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F51D937E24439660009DEA18 /* LaunchScreen.storyboard */; };
+		F51D93882443A3BD009DEA18 /* DiagnoseView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F51D93872443A3BD009DEA18 /* DiagnoseView.swift */; };
+		F595D19F24444380001B6360 /* FAQView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F595D19A2444437F001B6360 /* FAQView.swift */; };
+		F595D1A024444380001B6360 /* SelfDiagnoseView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F595D19B2444437F001B6360 /* SelfDiagnoseView.swift */; };
+		F595D1A124444380001B6360 /* EPassView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F595D19C2444437F001B6360 /* EPassView.swift */; };
+		F595D1A224444380001B6360 /* SettingsModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F595D19D2444437F001B6360 /* SettingsModel.swift */; };
+		F595D1A324444380001B6360 /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F595D19E24444380001B6360 /* SettingsView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +30,12 @@
 		F51D937C24439660009DEA18 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		F51D937F24439660009DEA18 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		F51D938124439660009DEA18 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F51D93872443A3BD009DEA18 /* DiagnoseView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DiagnoseView.swift; sourceTree = "<group>"; };
+		F595D19A2444437F001B6360 /* FAQView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FAQView.swift; sourceTree = "<group>"; };
+		F595D19B2444437F001B6360 /* SelfDiagnoseView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SelfDiagnoseView.swift; sourceTree = "<group>"; };
+		F595D19C2444437F001B6360 /* EPassView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EPassView.swift; sourceTree = "<group>"; };
+		F595D19D2444437F001B6360 /* SettingsModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SettingsModel.swift; sourceTree = "<group>"; };
+		F595D19E24444380001B6360 /* SettingsView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SettingsView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +68,11 @@
 		F51D93722443965D009DEA18 /* SwiftUI-Test */ = {
 			isa = PBXGroup;
 			children = (
+				F595D19C2444437F001B6360 /* EPassView.swift */,
+				F595D19A2444437F001B6360 /* FAQView.swift */,
+				F595D19B2444437F001B6360 /* SelfDiagnoseView.swift */,
+				F595D19D2444437F001B6360 /* SettingsModel.swift */,
+				F595D19E24444380001B6360 /* SettingsView.swift */,
 				F51D93732443965D009DEA18 /* AppDelegate.swift */,
 				F51D93752443965D009DEA18 /* SceneDelegate.swift */,
 				F51D93772443965D009DEA18 /* ContentView.swift */,
@@ -63,6 +80,7 @@
 				F51D937E24439660009DEA18 /* LaunchScreen.storyboard */,
 				F51D938124439660009DEA18 /* Info.plist */,
 				F51D937B24439660009DEA18 /* Preview Content */,
+				F51D93872443A3BD009DEA18 /* DiagnoseView.swift */,
 			);
 			path = "SwiftUI-Test";
 			sourceTree = "<group>";
@@ -146,8 +164,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F595D1A224444380001B6360 /* SettingsModel.swift in Sources */,
+				F595D1A124444380001B6360 /* EPassView.swift in Sources */,
 				F51D93742443965D009DEA18 /* AppDelegate.swift in Sources */,
+				F595D1A324444380001B6360 /* SettingsView.swift in Sources */,
 				F51D93762443965D009DEA18 /* SceneDelegate.swift in Sources */,
+				F51D93882443A3BD009DEA18 /* DiagnoseView.swift in Sources */,
+				F595D19F24444380001B6360 /* FAQView.swift in Sources */,
+				F595D1A024444380001B6360 /* SelfDiagnoseView.swift in Sources */,
 				F51D93782443965D009DEA18 /* ContentView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
